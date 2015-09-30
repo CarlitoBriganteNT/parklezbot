@@ -1,0 +1,10 @@
+Open c9.io enviroment
+
+open a terminal there and send each of the following lines:
+
+git clone https://github.com/eternnoir/pyTelegramBotAPI.git
+cd pyTelegramBotAPI
+sudo python3 setup.py install
+
+
+As free user, you have to restart your bot daily, since every 24h, c9 stops your scripts.

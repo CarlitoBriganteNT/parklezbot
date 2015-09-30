@@ -1,0 +1,1 @@
+{1: "Nicolas Cage said in an interview that he avoids watching his own movies.\n\nHe's not the only one.", 2: 'Fuck the Japanese. The only yellow people I trust are the Simpsons.', 3: 'My girlfriend asked me to start treating her like the women from the classic black and white movies.\n\nSo I left her tied to the train tracks.'}
