@@ -35,3 +35,4 @@ You can deleted all the .txt files in case you want to do so. Common_functions.p
 In case you want to take any step further in this project, find me in telegram. (I am not answering questions like: 'How can I send something to my subs?')
 
 My telegram username: @parklez
+www.telegram.me/parklez
