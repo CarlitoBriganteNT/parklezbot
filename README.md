@@ -9,6 +9,7 @@ Telegram bot made with PyTelegramBotAPI
  - List handling.
  - .txt database system.
  - Lots of common functions to make life easier.
+ - Tool to convert .wav to OPUS .ogg
  - Awesome plugins made by me and folks at the official pyTelegramBotAPI group.
 
 #######################################
