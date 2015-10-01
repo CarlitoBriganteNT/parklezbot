@@ -7,7 +7,7 @@ cd pyTelegramBotAPI
 sudo python3 setup.py install
 
 
-REMEMBER TO CLICK AT ** RUN WITH > PYTHON 3.4 **
+REMEMBER TO CLICK AT ** RUN > RUN WITH > PYTHON 3.4 **
 
 
 As free user, you have to restart your bot daily, since every 24h, c9 stops your scripts.

@@ -18,9 +18,9 @@ def shell_command(message):
 def execute_command(message):
     bot.send_message(message.chat.id, 'Executing...')
     result_command = subprocess.Popen(message.text, shell=True, stdout=subprocess.PIPE).stdout.read()
-    if result_command == '':
+    if str(result_command) == '':
         bot.reply_to(message, 'Something went wrong!')
     else:
-        bot.send_message(message.chat.id, result_command)
+        bot.send_message(message.chat.id, str(result_command))
 
 admin_commands['shell'] = 'Runs a command on terminal.'
