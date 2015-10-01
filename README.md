@@ -30,7 +30,7 @@ All extras included in this documentation folder are not supported anymore, they
 
 anime_module.py comes with some explaination inside /documentation folder.
 
-You can deleted all the .txt files in case you want to do so. common_functions.py will re-create it if needed by any plugin.
+You can delete all the .txt files in case you want to do so. common_functions.py will re-create it if needed by any plugin.
 
 In case you want to take any step further in this project, find me in telegram.** (I am not answering questions like: 'How can I send something to my subs?', 'How do I change the welcome message?')**
 
