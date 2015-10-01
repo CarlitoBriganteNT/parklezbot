@@ -1,3 +1,8 @@
+'''
+This plugin has been converted from python 2 to 3,
+and does not handle errors, just ignore them.
+'''
+
 import json
 import urllib.request, urllib.error, urllib.parse
 import random
@@ -26,4 +31,4 @@ def command_img(message):
     except (UnicodeEncodeError, IndexError, urllib.error.HTTPError):
         pass
     
-help_commands['img'] = 'Search for a google image.'
+help_commands['img'] = '[BETA] Search for a google image.'

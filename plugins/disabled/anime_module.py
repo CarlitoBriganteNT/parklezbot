@@ -280,7 +280,7 @@ def choose_anime_episode(message):
     if episode.isdigit():
         new_anime_ep = load_dict('files/animes/' + str(new_anime_name[cid]) + '.txt')
         add_key_dict('files/animes/' + str(new_anime_name[cid]) + '.txt', new_anime_ep, episode, new_anime_id[cid])
-        bot.reply_to(message, 'Anime (agora) existe e episódio (re)adicionado!')
+        bot.reply_to(message, 'Anime (now) exists and episode has been (re)added!')
 
     else:
         bot.reply_to(message, 'Operation canceled!')

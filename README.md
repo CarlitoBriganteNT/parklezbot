@@ -5,21 +5,22 @@ Telegram bot made with PyTelegramBotAPI
 #######################################
 	Features:
 
- - Admin system.
+ - Admin system. (with menus)
  - Subscriber system.
  - List handling.
  - .txt database system.
  - Lots of common functions to make life easier.
- - Tool to convert .wav to OPUS .ogg
+ - Tool to convert .wav to OPUS .ogg.
+ - Easy drag and drop to enable/disable plugins.
  - Awesome plugins made by me and folks at the official pyTelegramBotAPI group.
-
+ 
 #######################################
 
 Write your token and set yourself as admin at config.py
 
 I am releasing this bot 'as it is', I've translated everything I could.
 
-**I strongly recommend you to read all the python files not in the documentation folder, but in the main and plugins folder.**
+**I strongly recommend you to read all the python files in the main and plugins folder.**
 
 As you can see, I've separated all functions into modules just to make it easier to debug/enable/disable.** To enable a plugin, just drag it from the /disabled folder.**
 
@@ -27,8 +28,7 @@ All modules are globally loaded, and need config.py to know about the "bot" inst
 
 All extras included in this documentation folder are not supported anymore, they're just pieces of code I used somewhere in the project timeline.
 
-anime_module.py may be a little complicated, so I brought some explaination
-in anime module folder.
+anime_module.py comes with some explaination inside /documentation folder.
 
 You can deleted all the .txt files in case you want to do so. common_functions.py will re-create it if needed by any plugin.
 

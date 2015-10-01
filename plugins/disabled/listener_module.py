@@ -1,5 +1,7 @@
 '''
 This plugin helps to debug code significantly.
+As for telegram's ideology, do not use this if you don't want to debug.
+Privacy should be number 1 concern.
 '''
 
 from config import *
