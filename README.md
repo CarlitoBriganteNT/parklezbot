@@ -38,6 +38,12 @@ Telegram bot made with PyTelegramBotAPI
 	- reply_user id.py (/me)
 	- sounds_module.py (/snds, /snd, /delsnd)
 	
+#######################################
+	Bots using this base:
+	
+ - [@AndreasBOT](https://telegram.me/andreasbot) PORTUGUESE LANGUAGE!
+ - [@IllegalJokesBOT](https://telegram.me/illegaljokesbot)
+	
 Write your token and set yourself as admin at config.py
 
 I am releasing this bot 'as it is', I've translated everything I could.
@@ -50,8 +56,9 @@ All modules are globally loaded, and need config.py to know about the "bot" inst
 
 All extras included in this documentation folder are not supported anymore, they're just pieces of code I used somewhere in the project timeline.
 
-anime module.py, happy wheels module.py and sounds module.py won't retrieve any files that comes within this package, since file's id's are kept hidden from those who don't own it.
-To start adding stuff yourself, you can delete all the .txt files in case you want to do so. common_functions.py will re-create it if needed by any plugin.
+anime module.py, happy wheels module.py and sounds module.py do not have any files for your enjoyment, since telegram only allow the file's owner to retrieve them! (telegram's behavior, long story.) So you have to send them to the bot yourself! (See /documentation/anime module/, before uploading videos!).
+
+You can delete any .txt at any moment, since common_functions.py creates them when necessary! :)
 
 In case you want to take any step further in this project, find me in telegram.** (I am not answering questions like: 'How can I send something to my subs?', 'How do I change the welcome message?')**
 
