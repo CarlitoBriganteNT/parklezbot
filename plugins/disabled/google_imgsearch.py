@@ -1,6 +1,8 @@
 '''
+Thanks to Thanks to https://github.com/ineedblood/telegram-bot
+
 This plugin has been converted from python 2 to 3,
-and does not handle errors, just ignore them.
+and does not handle errors, just ignores them!
 '''
 
 import json
