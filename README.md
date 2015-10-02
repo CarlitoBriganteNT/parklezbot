@@ -28,6 +28,7 @@ Telegram bot made with PyTelegramBotAPI
 	- admin_subscriber module.py (/post, /stop, /subscribe)
 	- anime_module.py (/animes, /edit)
 	- google_imgsearch.py (/img)
+	- google_maps.py (/map)
 	- happy_wheels module.py (/maps, /delmap)
 	- jokes_module.py (/joke, /addjoke, /jokemenu or /settings)
 	- linux_shell module.py (/shell)
