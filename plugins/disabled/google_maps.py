@@ -13,6 +13,7 @@ def command_map(message):
     token = message.text[5:]
     if token == '':
         bot.reply_to(message, 'Ex. /map Kazakhstan')
+        return
     if ' ' in token:
         token = token.replace(' ', '+')
     token = token.encode('utf-8')
