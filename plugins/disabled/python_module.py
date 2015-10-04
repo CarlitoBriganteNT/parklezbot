@@ -57,10 +57,10 @@ from config import *
 @bot.message_handler(commands=['python'])
 def reply_python_code(message):
     cid = get_user_id(message)
-    users_steps[cid] = 'python'
 
     if cid in admin_users:
-        bot.send_message(message.chat.id, 'You\'re in Python 3 console mode.\nUse /cancel to exit.')
+        users_steps[cid] = 'python'
+        bot.send_message(message.chat.id, 'You\'re in Python 3 console mode.\nTap /cancel to exit.')
         #markup = types.ForceReply(selective=False)
         #msg = bot.send_message(message.chat.id, 'Write your python 3 code:', reply_markup=markup)
         #bot.register_next_step_handler(msg, run_code)
@@ -78,7 +78,7 @@ def run_code(message):
     result = str(bot_console.push(message.text))
     
     if result == '':
-        bot.send_message(message.chat.id, 'Blank result.')
+        bot.send_message(message.chat.id, 'Blank output.')
     else:
         bot.send_message(message.chat.id, result)
 
