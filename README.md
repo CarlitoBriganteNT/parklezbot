@@ -33,6 +33,7 @@ Telegram bot made with PyTelegramBotAPI
 	- jokes_module.py (/joke, /addjoke, /jokemenu or /settings)
 	- linux_shell module.py (/shell)
 	- listener_module.py (no commands, debug only)
+	- python_module.py (/python, a python interactive console)
 	- reply_files ids.py (no commands, replies file's id's)
 	- reply_rate.py (/rate)
 	- reply_user id.py (/me)
