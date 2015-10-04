@@ -26,7 +26,7 @@ class OutputCache:
         return output
 
 class Console(InteractiveConsole):
-    "Wrapper around Python that can filter input/output to the shell"
+    'Wrapper around Python that can receive lines of code'
     def __init__(self):
         self.stdout = sys.stdout
         self.cache = OutputCache()
@@ -82,4 +82,4 @@ def run_code(message):
     else:
         bot.send_message(message.chat.id, result)
 
-admin_commands['python'] = '[BETA] Enter in a clean python 3 console.'
+admin_commands['python'] = '[BETA] Enters in a clean python 3 console.'
