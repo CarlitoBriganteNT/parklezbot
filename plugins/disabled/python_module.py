@@ -3,7 +3,7 @@ Python console, it's not an actual IDLE but... it's powerful.
 I don't know how to catch erros like syntax error instead of blank messages...
 
 I could not use this InteractiveConsole instance
-to work within the bot's globals() and locals(). (if there a way?)
+to work within the bot's globals() and locals(). (is there a way?)
 '''
 
 from code import InteractiveConsole
