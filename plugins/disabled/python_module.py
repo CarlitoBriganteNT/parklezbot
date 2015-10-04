@@ -60,8 +60,8 @@ def reply_python_code(message):
     users_steps[cid] = 'python'
 
     if cid in admin_users:
-        markup = types.ForceReply(selective=False)
         bot.send_message(message.chat.id, 'You\'re in Python 3 console mode.\nUse /cancel to exit.')
+        #markup = types.ForceReply(selective=False)
         #msg = bot.send_message(message.chat.id, 'Write your python 3 code:', reply_markup=markup)
         #bot.register_next_step_handler(msg, run_code)
 
